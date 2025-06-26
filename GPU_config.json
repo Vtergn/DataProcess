@@ -1,0 +1,21 @@
+{
+  "data": {
+    "processed_data_path": "data/processed_data.xlsx",
+    "npy_data_path": "data/raw_data.npy"
+  },
+  "training": {
+    "use_gpu": true,
+    "gpu_id": 0,
+    "num_epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001
+  },
+  "model_saving": {
+    "save_dir": "models/",
+    "model_name": "my_deep_learning_model.pth"
+  },
+  "general": {
+    "random_seed": 42,
+    "log_level": "INFO"
+  }
+}
